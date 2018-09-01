@@ -8,3 +8,5 @@ RUN apt-get install -y python3.5 \
 RUN apt-get install -y git
 
 RUN pip3 install flask flask-cors
+
+RUN pip3 install pymongo
